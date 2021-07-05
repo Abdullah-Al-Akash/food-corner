@@ -20,6 +20,32 @@ h1{
 h2{
         font-size: 40px;
 }
+.navigation{
+        width: 70%;
+        margin: 2% auto;
+}
+.navigation ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: end;
+      }
+      
+.navigation li {
+        display: inline;
+        margin: 2%;
+}
+.navigation ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+}
+.navigation ul li a:hover{
+        color: orangered;
+        background: gray;
+        padding: 8px;
+        border-radius: 5px;
+}
 .half-width img{
         width: 70%;
 }
@@ -69,6 +95,7 @@ h2{
 #subscribe-section{
         width: 85%;
         margin: 0 auto;
+        margin-top: 5%;
         box-shadow: 10px 10px 40px black;
         border-radius: 20px;
         padding: 2% 0;
@@ -82,7 +109,7 @@ h2{
 footer{
         background-color: black;
         margin-top: 5%;
-        padding: 8% 0;
+        padding: 6% 0;
 }
 #footer-text{
         width: 60%;
