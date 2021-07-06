@@ -9,17 +9,22 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/food's-corner.png" type="image/x-icon">
         <title>Food's Corner</title>
 </head>
 
 <body>
         <section class="navigation">
+
                 <ul>
+                        <li class="site-name">
+                                Food's Corner
+                        </li>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#recipies">Recipies</a></li>
                         <li><a href="#blogs">Blogs</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#order">Order</a></li>
                 </ul>
         </section>
         <section class="top-banner">
@@ -94,6 +99,32 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis natus tempore
                                         adipisci inventore alias beatae amet ullam pariatur accusamus perspiciatis.</p>
                         </div>
+                </div>
+        </section>
+        <section id="order">
+                <h2>Order Your Dish</h2>
+                <div>
+                        <form action="">
+                                <label for="fname">Your Name</label>
+                                <input type="text" id="name" name="firstname" placeholder="Your name..">
+
+                                <label for="lname">Your Email</label>
+                                <input type="text" id="email" name="email" placeholder="Your Email">
+
+                                <label for="lname">Your Address</label>
+                                <input type="text" id="email" name="address" placeholder="Your Address">
+
+                                <label for="country">Select Your Dish</label>
+                                <select id="country" name="country">
+                                        <option value="vegetable">Vegetable</option>
+                                        <option value="fastfood">Fastfood</option>
+                                        <option value="rice">Rice</option>
+                                        <option value="chicken">Chicken</option>
+                                        <option value="mutton">Mutton</option>
+                                </select>
+
+                                <input class="submit" type="submit" value="Order Now">
+                        </form>
                 </div>
         </section>
         <section id="subscribe-section">
